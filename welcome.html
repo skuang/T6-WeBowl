@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function enterName() {
+	var person = prompt("Please enter your name");
+	if (person != null) {
+   		 document.getElementById("demo").innerHTML = "Hello " + person + "! How are you today?";
+    }
+}
+</script>
+</head>
+<p>
+<br/><br/>
+<center>
+<h2>Welcome to Team 6 Bowling</h2>
+<br/></br/>
+<input type="button" value="Start" size="30" style=" width: 200px" onclick="enterName()"></input>
+</center>
+<span id="demo"></span>
+</p>
+</html>
